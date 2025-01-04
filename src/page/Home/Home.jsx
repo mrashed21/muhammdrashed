@@ -10,9 +10,11 @@ const Home = () => {
     <>
       <main>
         <section>
-        <Hero />
+          <Hero />
         </section>
-        <section id="about"><About /></section>
+        <section id="about">
+          <About />
+        </section>
         <Skills />
         <Services />
         <Projects />

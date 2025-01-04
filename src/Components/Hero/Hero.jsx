@@ -1,28 +1,3 @@
-// import { Typography } from "@material-tailwind/react";
-
-// const Hero = () => {
-//   return (
-//     <div className="bg-[url('/bg-hero.jpg')] bg-cover bg-center h-screen">
-//       {/* left side */}
-//       <div className="">
-//         {/* added text animation with colorful text */}
-//         <Typography variant="h2">I'm</Typography>
-//         {/* add  typewriter-effect here with color full text.my background color dark */}
-//         <Typography variant="h1">Muhammad Rashed</Typography>
-//         {/* add  typewriter-effect here with color full text.my background color dark */}
-//         <Typography variant="h2">MERN Developer</Typography>
-//         <Typography>
-//           Iam Muhammad Rashed,form Bangladesh. Iam a MERN focused Front-End Web
-//           Developer
-//         </Typography>
-//       </div>
-//       {/* right side */}
-//       <div className=""></div>
-//     </div>
-//   );
-// };
-
-// export default Hero;
 
 import { Button, Typography } from "@material-tailwind/react";
 import {
