@@ -1,0 +1,314 @@
+[
+  {
+    "id": "service-review-system",
+    "title": "Service Review System",
+    "description": "A full-stack web application that allows users to review and interact with services. It supports user authentication, dynamic CRUD operations, and secure database management.",
+    "features": {
+      "userCapabilities": [
+        "Add/Update/Delete Services with full CRUD operations",
+        "View Service Details and user reviews",
+        "Manage Reviews with edit and delete options",
+        "My Reviews Page for managing user reviews"
+      ],
+      "authenticationSystem": [
+        "Email-password authentication with Google login integration",
+        "Strong password validation for registration",
+        "Secure environment variables for Firebase keys and MongoDB credentials"
+      ],
+      "extraFeatures": [
+        "Dynamic route-based page titles",
+        "Pagination with 6-9 entries per page",
+        "Search and Filters by keyword and category",
+        "Responsive Design for mobile, tablet, and desktop",
+        "Framer Motion animations",
+        "Integrated rating system using react-rating-stars-component",
+        "CountUp Stats for users, services, and reviews",
+        "Loading Spinner during data fetching",
+        "Toast Notifications for CRUD operations",
+        "Custom 404 Page for invalid routes"
+      ]
+    },
+    "technology": {
+      "frontend": [
+        "React",
+        "React Router DOM",
+        "Tailwind CSS",
+        "Material Tailwind",
+        "Framer Motion",
+        "React Toastify",
+        "React Rating Stars Component",
+        "React CountUp",
+        "React Hook Form"
+      ],
+      "backend": [
+        "Node.js & Express.js",
+        "MongoDB with Mongoose",
+        "JWT Authentication"
+      ]
+    },
+    "images": [
+      "https://i.ibb.co.com/74rvGkt/Screenshot-2025-01-04-230103.png",
+      "https://i.ibb.co.com/Cn1XFyq/Screenshot-2025-01-04-230153.png",
+      "https://i.ibb.co.com/gSbXPXs/Screenshot-2025-01-04-230236.png",
+      "https://i.ibb.co.com/4fj3fp0/Screenshot-2025-01-04-230259.png",
+      "https://i.ibb.co.com/DWMqq80/Screenshot-2025-01-04-230313.png",
+      "https://i.ibb.co.com/s9tGW2T/Screenshot-2025-01-04-230338.png",
+      "https://i.ibb.co.com/BZRdh7P/Screenshot-2025-01-04-230453.png"
+    ],
+    "liveLink": "https://services-review.netlify.app/",
+    "gitRepo": {
+      "frontend": "https://github.com/mrashed21/sevice-review",
+      "backend": "https://github.com/mrashed21/service-review-server"
+    }
+  },
+  {
+    "id": "movie-portal-m-flix",
+    "title": "Movie Portal [M-Flix]",
+    "description": "A dynamic platform for movie enthusiasts to explore, add, update, delete, and manage favorite movies. It features authentication, movie search, and dark/light mode toggle for enhanced usability.",
+    "features": {
+      "authentication": [
+        "Firebase authentication with email-password and Google sign-in",
+        "Secure password validation during registration"
+      ],
+      "movieManagement": [
+        "Add, update, and delete movies",
+        "Add and remove movies from favorites",
+        "View detailed information about movies"
+      ],
+      "extraFeatures": [
+        "Responsive design for mobile, tablet, and desktop",
+        "Movie search functionality to filter by title",
+        "Dark/Light theme toggle",
+        "Form validation for movie addition with SweetAlert notifications"
+      ]
+    },
+    "technology": {
+      "frontend": [
+        "React",
+        "React Router",
+        "React Helmet Async",
+        "React Icons",
+        "Tailwind CSS",
+        "DaisyUI",
+        "SweetAlert",
+        "React Toastify",
+        "React Rating Stars Component",
+        "Swiper"
+      ],
+      "backend": [
+        "Firebase for authentication",
+        "MongoDB for data storage (movies and favorites)"
+      ],
+      "developmentTools": [
+        "Vite for development server",
+        "ESLint for linting",
+        "React Hook Form for form handling"
+      ]
+    },
+    "images": [
+      "https://i.ibb.co.com/6nj92Fx/Screenshot-2025-01-04-230403.png",
+      "https://i.ibb.co.com/DkZpC74/Screenshot-2025-01-04-230423.png",
+      "https://i.ibb.co.com/BVLznWg/Screenshot-2025-01-04-230513.png"
+    ],
+    "liveLink": "https://m-flix.netlify.app/",
+    "gitRepo": {
+      "frontend": "https://github.com/mrashed21/m-flix"
+    }
+  },
+  {
+    "id": "eco-adventure-experiences",
+    "title": "Eco-Adventure Experiences",
+    "description": "A blog platform showcasing eco-friendly travel adventures, offering detailed information and expert consultations. It features user profiles, Firebase authentication, and interactive design for an engaging experience.",
+    "features": {
+      "design": [
+        "Fully responsive design for mobile, tablet, and desktop",
+        "Winter-themed visual style promoting eco-travel",
+        "Interactive animations with AOS"
+      ],
+      "authentication": [
+        "Firebase authentication with Google login and email registration",
+        "Password reset functionality",
+        "Secure environment with environment variables for Firebase keys"
+      ],
+      "adventureManagement": [
+        "Dynamic adventure data displayed using JSON",
+        "Adventure detail page with in-depth information",
+        "Expert consultation via Google Meet or scheduled messages"
+      ],
+      "extraFeatures": [
+        "Private routes for logged-in users with reload persistence",
+        "Profile management for viewing and updating user details",
+        "Custom 404 error page with homepage redirect",
+        "Dynamic titles based on route changes"
+      ]
+    },
+    "technology": {
+      "frontend": [
+        "React",
+        "React Router DOM",
+        "Tailwind CSS",
+        "DaisyUI",
+        "Swiper.js",
+        "React Icons",
+        "AOS"
+      ],
+      "backend": ["Firebase for authentication and hosting"],
+      "utilities": [
+        "dotenv for environment variables",
+        "react-toastify for notifications",
+        "useLocation for dynamic titles"
+      ]
+    },
+    "exampleAdventures": [
+      "Mountain Treks",
+      "Ocean Dives",
+      "Forest Expeditions",
+      "Camping Retreats",
+      "Mangrove Forest Expeditions",
+      "River Adventures"
+    ],
+    "pagesAndSections": {
+      "homepage": [
+        "Banner section with image slider",
+        "Adventure cards with title, image, features, and 'Explore Now' button",
+        "Additional themed sections to boost engagement"
+      ],
+      "authentication": [
+        "Login and registration pages with Google login option",
+        "Password reset functionality"
+      ],
+      "adventureDetails": [
+        "Detailed information with Google Meet integration (10 AM - 8 PM)",
+        "Consultation scheduling modal for off-hours"
+      ],
+      "profile": ["User details with options to update name and profile photo"],
+      "errorPage": ["Custom 404 page with redirect to homepage"]
+    },
+    "images": [
+      "https://i.ibb.co.com/dBxY6hR/Screenshot-2025-01-04-230532.png",
+      "https://i.ibb.co.com/fqB9nW1/Screenshot-2025-01-04-230549.png",
+      "https://i.ibb.co.com/x7YBYHD/Screenshot-2025-01-04-230609.png",
+      "https://i.ibb.co.com/QpFCcVL/Screenshot-2025-01-04-230634.png"
+    ],
+    "liveLink": "https://eco-adventure-experiences.netlify.app/",
+    "gitRepo": {
+      "frontend": "https://github.com/mrashed21/Eco-Adventure-Experiences"
+    }
+  },
+  {
+    "id": "gadget-heaven",
+    "title": "Gadget Heaven",
+    "description": "An e-commerce platform for showcasing and purchasing the latest gadgets. Features include a dynamic cart, wishlist, sorting options, product ratings, and detailed specifications for seamless user interaction.",
+    "features": {
+      "productManagement": [
+        "Product listing with detailed information including images, price, ratings, and specifications",
+        "View detailed product pages with availability and ratings"
+      ],
+      "cartAndWishlist": [
+        "Add and remove items from the cart or wishlist",
+        "Sort products in the cart by price (ascending or descending)",
+        "Dynamic calculation of total cost in the cart"
+      ],
+      "notifications": ["Real-time alerts and notifications for user actions"],
+      "interactiveNavbar": [
+        "Navigation to Home, Statistics, Dashboard, and Testimonials",
+        "Dynamic background color adjustments based on interaction"
+      ]
+    },
+    "technology": {
+      "frontend": ["React", "Tailwind CSS", "React Router"],
+      "stateManagement": ["Context API for global state management"],
+      "uiComponents": [
+        "React Icons for visuals",
+        "React Stars component for ratings"
+      ]
+    },
+    "dataManagement": {
+      "contextAPI": [
+        "Global state management for cart, wishlist, and products"
+      ],
+      "hooks": [
+        "useState for managing state",
+        "useContext for accessing global states"
+      ],
+      "conditionalRendering": [
+        "Show/hide elements based on user interactions (e.g., toggling cart items)"
+      ]
+    },
+    "purchaseFlow": [
+      "Simulated purchase flow with modal confirmation upon checkout"
+    ],
+    "images": [
+      "https://i.ibb.co.com/sQ5HQD6/Screenshot-2025-01-04-230650.png",
+      "https://i.ibb.co.com/1s8D192/Screenshot-2025-01-04-230701.png",
+      "https://i.ibb.co.com/YdbS7P1/Screenshot-2025-01-04-230733.png",
+      "https://i.ibb.co.com/8dVXMqS/Screenshot-2025-01-04-230749.png"
+    ],
+    "liveLink": "https://gadget-heaven-one.vercel.app/",
+    "gitRepo": {
+      "frontend": "https://github.com/mrashed21/Gadget-Heaven"
+    }
+  },
+  {
+    "id": "select-cricket-team",
+    "title": "Select Cricket Team",
+    "description": "A React-based web application where users can create their dream cricket team by selecting players within a credit limit. Features include credit-based player selection, team management, and instant notifications for team changes.",
+    "features": {
+      "playerSelection": [
+        "Credit-based player selection where each player has a cost, and users can select players within their available credits",
+        "Dynamic updates for remaining credits after each selection or removal"
+      ],
+      "teamManagement": [
+        "Toggle between available and selected players to manage team lineup",
+        "Ensure team complies with maximum size constraints"
+      ],
+      "notifications": [
+        "Toast notifications for actions like adding/removing players, exceeding credit limits, or reaching maximum team size"
+      ]
+    },
+    "technology": {
+      "frontend": ["React", "Tailwind CSS"],
+      "notifications": ["React Toastify for customizable notifications"],
+      "stateManagement": ["PropTypes for type checking of component props"]
+    },
+    "images": [
+      "https://i.ibb.co.com/6rDTwn8/Screenshot-2025-01-04-230824.png",
+      "https://i.ibb.co.com/d6zQKYF/Screenshot-2025-01-04-230850.png",
+      "https://i.ibb.co.com/1R3kvs0/Screenshot-2025-01-04-230916.png"
+    ],
+    "liveLink": "https://choose-cricket-team.netlify.app/",
+    "gitRepo": {
+      "frontend": "https://github.com/mrashed21/cricket-team"
+    }
+  },
+  {
+    "id": "peddy-pet-adoption-platform",
+    "title": "Peddy - Pet Adoption Platform",
+    "description": "Peddy is a pet adoption platform where users can find and adopt pets. It allows filtering by categories, viewing detailed pet information, sorting pets by price, and interacting with adoption modals.",
+    "features": {
+      "categoryFiltering": "Users can filter pets by different categories.",
+      "petDetails": "Users can view detailed information for each pet including image, breed, price, date of birth, gender, and vaccination status.",
+      "adoptionModal": "Adoption confirmation modal with a congratulatory message after adoption.",
+      "priceSorting": "Pets can be sorted by price.",
+      "thumbsUpSelection": "Users can mark pets with a thumbs-up button."
+    },
+    "technology": {
+      "frontend": ["React", "Tailwind CSS"],
+      "es6Features": [
+        "Arrow functions",
+        "Template literals",
+        "Destructuring",
+        "let/const"
+      ]
+    },
+    "images": [
+      "https://i.ibb.co.com/NxtJ7pQ/Screenshot-2025-01-04-230941.png",
+      "https://i.ibb.co.com/YX1cG2y/Screenshot-2025-01-04-231033.png",
+      "https://i.ibb.co.com/vjQxGd7/Screenshot-2025-01-04-231052.png"
+    ],
+    "liveLink": "https://pets-adooption.netlify.app/",
+    "gitRepo": {
+      "frontend": "https://github.com/mrashed21/pet-adoption-platform"
+    }
+  }
+]

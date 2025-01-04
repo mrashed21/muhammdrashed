@@ -25,7 +25,6 @@ import { toast } from "react-toastify";
 const ContactMe = () => {
   useEffect(() => {
     AOS.init({ duration: 1000, easing: "ease-in-out" });
-    configuration;
   }, []);
 
   const {
