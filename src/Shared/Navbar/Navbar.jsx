@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const navItems = [
-    { id: 1, name: "Home", path: "#" },
+    { id: 1, name: "Home", path: "/" },
     { id: 2, name: "About", path: "#about" },
     { id: 3, name: "Skills", path: "/skills" },
     { id: 4, name: "Projects", path: "/projects" },
