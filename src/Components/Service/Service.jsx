@@ -151,7 +151,7 @@ const Services = () => {
   return (
     <section className="py-12 bg-[url('my-service.jpg')] bg-cover bg-center">
       <div className="w-11/12 mx-auto px-6 text-center text-white">
-        <Typography variant="h3" className="mb-8 font-bold">
+        <Typography variant="h3" className="my-12 font-bold">
           My Services
         </Typography>
 
@@ -166,7 +166,7 @@ const Services = () => {
               <Card
                 key={index}
                 data-aos="fade-up"
-                className="p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 rounded-lg bg-[#151c29]"
+                className="p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 rounded-lg bg-[#151c29] shadow-blue-gray-900 border-2"
               >
                 <div className="flex flex-col items-center text-center">
                   <div className="mb-4">{service.icon}</div>
