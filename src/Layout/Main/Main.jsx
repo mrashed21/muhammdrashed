@@ -1,6 +1,7 @@
-import Footer from "../Shared/Navbar/Footer/Footer";
-import Navbar from "../Shared/Navbar/Navbar";
-import Hero from "./Hero/Hero";
+import Footer from "../../Shared/Footer/Footer";
+import Navbar from "../../Shared/Navbar/Navbar";
+import About from "../About/About";
+import Hero from "../Hero/Hero";
 
 const Main = () => {
   return (
@@ -10,6 +11,7 @@ const Main = () => {
       </header>
       <main>
         <Hero />
+        <About />
       </main>
       <footer>
         <Footer />

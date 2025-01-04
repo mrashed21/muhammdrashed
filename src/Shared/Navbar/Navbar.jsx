@@ -1,10 +1,10 @@
 import { Button, Typography } from "@material-tailwind/react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const navItems = [
-    { id: 1, name: "Home", path: "/" },
-    { id: 2, name: "About", path: "/about" },
+    { id: 1, name: "Home", path: "#" },
+    { id: 2, name: "About", path: "#about" },
     { id: 3, name: "Skills", path: "/skills" },
     { id: 4, name: "Projects", path: "/projects" },
     // {id: 3, name: "Contact", path: "/contact"},
@@ -23,9 +23,15 @@ const Navbar = () => {
           <ul className="flex">
             <li className="space-x-6">
               {navItems.map((item) => (
-                <Link key={item.id} to={item.path}>
+                <NavLink
+                  key={item.id}
+                  to={item.path}
+                  className={({ isActive }) =>
+                    isActive ? "text-blue-500 font-bold" : "text-gray-500"
+                  }
+                >
                   {item.name}
-                </Link>
+                </NavLink>
               ))}
             </li>
           </ul>
