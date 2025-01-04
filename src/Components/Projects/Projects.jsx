@@ -35,14 +35,14 @@ const Projects = () => {
   ];
 
   return (
-    <div className="py-12 px-4 sm:px-8 lg:px-16">
+    <div className="py-12 px-4 sm:px-8 lg:px-16 bg-[url('projects.jpg')] bg-cover bg-center">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-3xl font-bold text-center mb-8" data-aos="fade-up">
+        <h2 className="text-3xl font-bold text-center mb-8 text-white" data-aos="fade-up">
           Projects
         </h2>
       </motion.div>
@@ -56,7 +56,7 @@ const Projects = () => {
             className="shadow-lg rounded-lg overflow-hidden"
             data-aos="fade-up"
           >
-            <Card className="h-full">
+            <Card className="h-full bg-[#151c29]">
               <CardBody className="p-0">
                 <img
                   src={project.image}

@@ -1,12 +1,13 @@
 import { Button, Typography } from "@material-tailwind/react";
-import { NavLink } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const navItems = [
-    { id: 1, name: "Home", path: "/" },
-    { id: 2, name: "About", path: "#about" },
-    { id: 3, name: "Skills", path: "/skills" },
-    { id: 4, name: "Projects", path: "/projects" },
+    { id: 1, name: "Home", to: "home" },
+    { id: 2, name: "About", to: "about" },
+    { id: 3, name: "Skills", to: "skills" },
+    { id: 4, name: "Projects", to: "projects" },
     // {id: 3, name: "Contact", path: "/contact"},
     // Add more navigation items as needed...
   ];
@@ -23,15 +24,17 @@ const Navbar = () => {
           <ul className="flex">
             <li className="space-x-6">
               {navItems.map((item) => (
-                <NavLink
+                <Link
                   key={item.id}
-                  to={item.path}
-                  className={({ isActive }) =>
-                    isActive ? "text-blue-500 font-bold" : "text-gray-500"
-                  }
+                  to={item.to}
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  activeClass="text-blue-500 font-bold"
+                  className="text-gray-500"
                 >
                   {item.name}
-                </NavLink>
+                </Link>
               ))}
             </li>
           </ul>
