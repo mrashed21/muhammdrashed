@@ -414,7 +414,7 @@ const Skills = () => {
             transition={{ duration: 0.3 }}
           >
             <Card className="shadow-md  transition-all ease-in-out duration-300 hover:shadow-xl shadow-blue-gray-300 transform hover:scale-105 bg-[#151c29]">
-              <CardBody className="flex flex-col h-56 items-center text-center p-6">
+              <CardBody className="flex flex-col h-[250px] items-center text-center p-6">
                 <div className="mb-4">
                   <img
                     src={skill.icon}
