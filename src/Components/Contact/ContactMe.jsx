@@ -75,7 +75,7 @@ const ContactMe = () => {
 
   return (
     <section className=" bg-[url('contact-me.jpg')] bg-cover bg-center py-12  ">
-      <Typography variant="h4" className=" my-12 text-center text-white">
+      <Typography variant="h4" className=" my-12 lg:mt-14 text-center text-white">
         Contact Me
       </Typography>
       <div className=" w-11/12 mx-auto flex flex-col lg:flex-row justify-between items-center gap-10">

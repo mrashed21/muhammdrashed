@@ -1,5 +1,8 @@
-
 import { Button, Typography } from "@material-tailwind/react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { motion } from "framer-motion";
+import { useEffect } from "react";
 import {
   FaFacebook,
   FaGithub,
@@ -13,20 +16,28 @@ import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import image from "/rashed.png";
+
 const Hero = () => {
+  // Initialize Aos
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
-    <section id="/" className="bg-[url('/bg-hero.jpg')] bg-cover bg-center relative overflow-hidden">
-      <div className=" text-white min-h-screen flex flex-col lg:flex-row items-center justify-between gap-32 w-11/12 mx-auto lg:mt-20">
+    <section className="bg-[url('/bg-hero.jpg')] bg-cover bg-center relative overflow-hidden">
+      <div className=" text-white  flex flex-col lg:flex-row items-center justify-between gap-32 w-11/12 mx-auto lg:mt-40  lg:mb-16 ">
         {/* Left side */}
-        <div className="font-poppins order-2 lg:order-1 -mt-16 lg:mt-0 text-center lg:text-left">
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          className="font-poppins order-2 lg:order-1 -mt-16 lg:mt-0 text-center lg:text-left"
+        >
           {/* Added colorful text animation */}
           <Typography variant="h2" className="text-yellow-400">
             I'm
           </Typography>
-          <Typography
-            variant="h1"
-            className="text-gradient bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text font-roboto"
-          >
+          <Typography className="text-gradient bg-gradient-to-r text-3xl lg:text-5xl font-bold from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text font-roboto min-h-[40px]">
             <Typewriter
               options={{
                 strings: ["Muhammad Rashed"],
@@ -52,7 +63,9 @@ const Hero = () => {
             Web Developer.
           </Typography>
           <div className="mt-5">
-            <Button color="white">Resume</Button>
+            <Link to={"/Muhammad Rashed.pdf"} target="_blank">
+              <Button color="white">Resume</Button>
+            </Link>
           </div>
           {/* Social link */}
 
@@ -114,14 +127,19 @@ const Hero = () => {
               <MdEmail />
             </Link>
           </div>
-        </div>
+        </motion.div>
 
         {/* Right side */}
-        <div className=" justify-end order-1 lg:order-2 mt-36 lg:mt-0">
+        <motion.div
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          className=" justify-end order-1 lg:order-2 mt-36 lg:mt-0"
+        >
           <div className="relative w-80 h-80 lg:w-[410px] lg:h-[410px] flex items-center justify-center rounded-full p-[5px]">
             {/* Outer Animated Gradient Border with Blur Effect */}
             <div
-              className="absolute inset-0 rounded-full border-[10px] border-transparent bg-gradient-to-r 
+              className="absolute inset-0 rounded-full border-[10px] border-transparent bg-gradient-to-r
                   from-cyan-500 via-blue-500 to-purple-500  animate-spin-slow blur-[3px]"
             ></div>
 
@@ -137,7 +155,7 @@ const Hero = () => {
               />
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

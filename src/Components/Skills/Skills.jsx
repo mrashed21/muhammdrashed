@@ -389,7 +389,7 @@ const Skills = () => {
 
   return (
     <div className="py-12 overflow-hidden bg-[url('hx2.jpg')] bg-cover bg-center ">
-      <Typography variant="h2" className=" text-center text-white py-12">Skills</Typography>
+      <Typography variant="h2" className=" text-center mt-7 lg:mt-9 text-white py-12">Skills</Typography>
       <motion.div
         className="flex space-x-4 w-11/12 mx-auto "
         animate={{ x: ["0%", "-60%"] }}

@@ -1,55 +1,52 @@
 // Footer.jsx
-import React from 'react';
-import { FaFacebookF, FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { Typography } from '@material-tailwind/react';
+import { Typography } from "@material-tailwind/react";
+import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white py-6">
+    <footer className="bg-[#151C29] text-white py-6">
       <div className="container mx-auto px-6 text-center">
         {/* Social Media Links */}
         <div className="flex justify-center mb-4 space-x-6">
-          <a
-            href="https://www.facebook.com/" // Replace with your Facebook profile
+          <Link
+            to="https://www.facebook.com/mrasheed21"
             target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-blue-500"
+            className="text-2xl text-white hover:text-blue-600 transition-transform duration-300 hover:scale-150"
           >
-            <FaFacebookF size={24} />
-          </a>
-          <a
-            href="https://github.com/" // Replace with your GitHub profile
+            <FaFacebook />
+          </Link>
+          <Link
+            to="https://github.com/mrashed21"
             target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gray-400"
+            className="text-2xl text-white hover:text-yellow-400 transition-transform duration-300 hover:scale-150"
           >
-            <FaGithub size={24} />
-          </a>
-          <a
-            href="https://www.linkedin.com/" // Replace with your LinkedIn profile
+            <FaGithub />
+          </Link>
+          <Link
+            to="https://www.linkedin.com/in/mrashed21"
             target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-blue-700"
+            className="text-2xl text-white hover:text-blue-500 transition-transform duration-300 hover:scale-150"
           >
-            <FaLinkedinIn size={24} />
-          </a>
+            <FaLinkedinIn />
+          </Link>
         </div>
 
         {/* Footer Text */}
-        <Typography variant="body2" className="text-gray-400">
+        <Typography variant="body2" className="text-white">
           &copy; {currentYear} Muhammad Rashed. All Rights Reserved.
         </Typography>
 
         {/* Additional Links */}
         <div className="mt-4">
-          <a href="#privacy" className="text-gray-400 hover:text-white mr-4">
+          <Link className="text-white hover:text-blue-500 mr-4">
             Privacy Policy
-          </a>
-          <a href="#terms" className="text-gray-400 hover:text-white">
+          </Link>
+          <Link className="text-white hover:text-blue-500">
             Terms of Service
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
