@@ -1,4 +1,3 @@
-
 import { Card, Typography } from "@material-tailwind/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -58,9 +57,9 @@ const Services = () => {
   }, []);
 
   return (
-    <section className="py-12 bg-[url('my-service.jpg')] bg-cover bg-center">
-      <div className="w-11/12 mx-auto px-6 text-center text-white">
-        <Typography variant="h3" className="my-12 font-bold">
+    <section className="py-12 bg-[url('https://i.ibb.co.com/pZ3QwLG/my-service.jpg')] bg-cover bg-center">
+      <div className="w-11/12 mx-auto px-6  lg:mt-16 text-center text-white">
+        <Typography variant="h3" className="my-12  font-bold">
           My Services
         </Typography>
 

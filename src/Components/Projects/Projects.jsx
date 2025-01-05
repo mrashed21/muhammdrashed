@@ -22,7 +22,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="py-12 px-4 sm:px-8 lg:px-16 bg-[url('projects.jpg')] bg-cover bg-center">
+    <div className="py-12 px-4 sm:px-8 lg:px-16 bg-[url('https://i.ibb.co.com/1ZrcVXJ/projects.jpg')] bg-cover bg-center">
       <motion.h2
         className="text-3xl font-bold text-center my-12 text-white"
         data-aos="fade-up"

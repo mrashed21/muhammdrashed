@@ -4,18 +4,18 @@
     "title": "Service Review System",
     "description": "A full-stack web application that allows users to review and interact with services. It supports user authentication, dynamic CRUD operations, and secure database management.",
     "features": {
-      "userCapabilities": [
+      "UserCapabilities": [
         "Add/Update/Delete Services with full CRUD operations",
         "View Service Details and user reviews",
         "Manage Reviews with edit and delete options",
         "My Reviews Page for managing user reviews"
       ],
-      "authenticationSystem": [
+      "AuthenticationSystem": [
         "Email-password authentication with Google login integration",
         "Strong password validation for registration",
         "Secure environment variables for Firebase keys and MongoDB credentials"
       ],
-      "extraFeatures": [
+      "ExtraFeatures": [
         "Dynamic route-based page titles",
         "Pagination with 6-9 entries per page",
         "Search and Filters by keyword and category",
@@ -29,7 +29,7 @@
       ]
     },
     "technology": {
-      "frontend": [
+      "Frontend": [
         "React",
         "React Router DOM",
         "Tailwind CSS",
@@ -40,7 +40,7 @@
         "React CountUp",
         "React Hook Form"
       ],
-      "backend": [
+      "Backend": [
         "Node.js & Express.js",
         "MongoDB with Mongoose",
         "JWT Authentication"
@@ -66,16 +66,16 @@
     "title": "Movie Portal [M-Flix]",
     "description": "A dynamic platform for movie enthusiasts to explore, add, update, delete, and manage favorite movies. It features authentication, movie search, and dark/light mode toggle for enhanced usability.",
     "features": {
-      "authentication": [
+      "Authentication": [
         "Firebase authentication with email-password and Google sign-in",
         "Secure password validation during registration"
       ],
-      "movieManagement": [
+      "MovieManagement": [
         "Add, update, and delete movies",
         "Add and remove movies from favorites",
         "View detailed information about movies"
       ],
-      "extraFeatures": [
+      "ExtraFeatures": [
         "Responsive design for mobile, tablet, and desktop",
         "Movie search functionality to filter by title",
         "Dark/Light theme toggle",
@@ -83,7 +83,7 @@
       ]
     },
     "technology": {
-      "frontend": [
+      "Frontend": [
         "React",
         "React Router",
         "React Helmet Async",
@@ -95,11 +95,11 @@
         "React Rating Stars Component",
         "Swiper"
       ],
-      "backend": [
+      "Backend": [
         "Firebase for authentication",
         "MongoDB for data storage (movies and favorites)"
       ],
-      "developmentTools": [
+      "DevelopmentTools": [
         "Vite for development server",
         "ESLint for linting",
         "React Hook Form for form handling"
@@ -112,7 +112,8 @@
     ],
     "liveLink": "https://m-flix.netlify.app/",
     "gitRepo": {
-      "frontend": "https://github.com/mrashed21/m-flix"
+      "frontend": "https://github.com/mrashed21/m-flix",
+      "backend": "https://github.com/mrashed21/m-flix-server"
     }
   },
   {
@@ -120,22 +121,22 @@
     "title": "Eco-Adventure Experiences",
     "description": "A blog platform showcasing eco-friendly travel adventures, offering detailed information and expert consultations. It features user profiles, Firebase authentication, and interactive design for an engaging experience.",
     "features": {
-      "design": [
+      "Design": [
         "Fully responsive design for mobile, tablet, and desktop",
         "Winter-themed visual style promoting eco-travel",
         "Interactive animations with AOS"
       ],
-      "authentication": [
+      "Authentication": [
         "Firebase authentication with Google login and email registration",
         "Password reset functionality",
         "Secure environment with environment variables for Firebase keys"
       ],
-      "adventureManagement": [
+      "AdventureManagement": [
         "Dynamic adventure data displayed using JSON",
         "Adventure detail page with in-depth information",
         "Expert consultation via Google Meet or scheduled messages"
       ],
-      "extraFeatures": [
+      "ExtraFeatures": [
         "Private routes for logged-in users with reload persistence",
         "Profile management for viewing and updating user details",
         "Custom 404 error page with homepage redirect",
@@ -143,7 +144,7 @@
       ]
     },
     "technology": {
-      "frontend": [
+      "Frontend": [
         "React",
         "React Router DOM",
         "Tailwind CSS",
@@ -152,14 +153,14 @@
         "React Icons",
         "AOS"
       ],
-      "backend": ["Firebase for authentication and hosting"],
-      "utilities": [
+      "Backend": ["Firebase for authentication and hosting"],
+      "Utilities": [
         "dotenv for environment variables",
         "react-toastify for notifications",
         "useLocation for dynamic titles"
       ]
     },
-    "exampleAdventures": [
+    "ExampleAdventures": [
       "Mountain Treks",
       "Ocean Dives",
       "Forest Expeditions",
@@ -167,21 +168,21 @@
       "Mangrove Forest Expeditions",
       "River Adventures"
     ],
-    "pagesAndSections": {
-      "homepage": [
+    "PagesAndSections": {
+      "Homepage": [
         "Banner section with image slider",
         "Adventure cards with title, image, features, and 'Explore Now' button",
         "Additional themed sections to boost engagement"
       ],
-      "authentication": [
+      "Authentication": [
         "Login and registration pages with Google login option",
         "Password reset functionality"
       ],
-      "adventureDetails": [
+      "AdventureDetails": [
         "Detailed information with Google Meet integration (10 AM - 8 PM)",
         "Consultation scheduling modal for off-hours"
       ],
-      "profile": ["User details with options to update name and profile photo"],
+      "Profile": ["User details with options to update name and profile photo"],
       "errorPage": ["Custom 404 page with redirect to homepage"]
     },
     "images": [
@@ -200,42 +201,42 @@
     "title": "Gadget Heaven",
     "description": "An e-commerce platform for showcasing and purchasing the latest gadgets. Features include a dynamic cart, wishlist, sorting options, product ratings, and detailed specifications for seamless user interaction.",
     "features": {
-      "productManagement": [
+      "ProductManagement": [
         "Product listing with detailed information including images, price, ratings, and specifications",
         "View detailed product pages with availability and ratings"
       ],
-      "cartAndWishlist": [
+      "CartAndWishlist": [
         "Add and remove items from the cart or wishlist",
         "Sort products in the cart by price (ascending or descending)",
         "Dynamic calculation of total cost in the cart"
       ],
-      "notifications": ["Real-time alerts and notifications for user actions"],
-      "interactiveNavbar": [
+      "Notifications": ["Real-time alerts and notifications for user actions"],
+      "InteractiveNavbar": [
         "Navigation to Home, Statistics, Dashboard, and Testimonials",
         "Dynamic background color adjustments based on interaction"
       ]
     },
     "technology": {
-      "frontend": ["React", "Tailwind CSS", "React Router"],
-      "stateManagement": ["Context API for global state management"],
-      "uiComponents": [
+      "Frontend": ["React", "Tailwind CSS", "React Router"],
+      "StateManagement": ["Context API for global state management"],
+      "UiComponents": [
         "React Icons for visuals",
         "React Stars component for ratings"
       ]
     },
     "dataManagement": {
-      "contextAPI": [
+      "ContextAPI": [
         "Global state management for cart, wishlist, and products"
       ],
-      "hooks": [
+      "Hooks": [
         "useState for managing state",
         "useContext for accessing global states"
       ],
-      "conditionalRendering": [
+      "ConditionalRendering": [
         "Show/hide elements based on user interactions (e.g., toggling cart items)"
       ]
     },
-    "purchaseFlow": [
+    "PurchaseFlow": [
       "Simulated purchase flow with modal confirmation upon checkout"
     ],
     "images": [
@@ -254,22 +255,22 @@
     "title": "Select Cricket Team",
     "description": "A React-based web application where users can create their dream cricket team by selecting players within a credit limit. Features include credit-based player selection, team management, and instant notifications for team changes.",
     "features": {
-      "playerSelection": [
+      "PlayerSelection": [
         "Credit-based player selection where each player has a cost, and users can select players within their available credits",
         "Dynamic updates for remaining credits after each selection or removal"
       ],
-      "teamManagement": [
+      "tTeamManagement": [
         "Toggle between available and selected players to manage team lineup",
         "Ensure team complies with maximum size constraints"
       ],
-      "notifications": [
+      "Notifications": [
         "Toast notifications for actions like adding/removing players, exceeding credit limits, or reaching maximum team size"
       ]
     },
     "technology": {
-      "frontend": ["React", "Tailwind CSS"],
-      "notifications": ["React Toastify for customizable notifications"],
-      "stateManagement": ["PropTypes for type checking of component props"]
+      "Frontend": ["React", "Tailwind CSS"],
+      "Notifications": ["React Toastify for customizable notifications"],
+      "StateManagement": ["PropTypes for type checking of component props"]
     },
     "images": [
       "https://i.ibb.co.com/6rDTwn8/Screenshot-2025-01-04-230824.png",
@@ -286,15 +287,15 @@
     "title": "Peddy - Pet Adoption Platform",
     "description": "Peddy is a pet adoption platform where users can find and adopt pets. It allows filtering by categories, viewing detailed pet information, sorting pets by price, and interacting with adoption modals.",
     "features": {
-      "categoryFiltering": "Users can filter pets by different categories.",
-      "petDetails": "Users can view detailed information for each pet including image, breed, price, date of birth, gender, and vaccination status.",
-      "adoptionModal": "Adoption confirmation modal with a congratulatory message after adoption.",
-      "priceSorting": "Pets can be sorted by price.",
-      "thumbsUpSelection": "Users can mark pets with a thumbs-up button."
+      "CategoryFiltering": "Users can filter pets by different categories.",
+      "PetDetails": "Users can view detailed information for each pet including image, breed, price, date of birth, gender, and vaccination status.",
+      "AdoptionModal": "Adoption confirmation modal with a congratulatory message after adoption.",
+      "PriceSorting": "Pets can be sorted by price.",
+      "ThumbsUpSelection": "Users can mark pets with a thumbs-up button."
     },
     "technology": {
-      "frontend": ["React", "Tailwind CSS"],
-      "es6Features": [
+      "Frontend": ["React", "Tailwind CSS"],
+      "Es6Features": [
         "Arrow functions",
         "Template literals",
         "Destructuring",

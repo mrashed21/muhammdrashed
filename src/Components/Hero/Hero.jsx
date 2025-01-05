@@ -24,8 +24,8 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="bg-[url('/bg-hero.jpg')] bg-cover bg-center relative overflow-hidden">
-      <div className=" text-white  flex flex-col lg:flex-row items-center justify-between gap-32 w-11/12 mx-auto lg:mt-40  lg:mb-16 ">
+    <section className="bg-[url('https://i.ibb.co.com/wpDvdDK/bg-hero.jpg')] bg-cover bg-center relative overflow-hidden">
+      <div className=" text-white  flex flex-col lg:flex-row items-center justify-between gap-32 w-11/12 mx-auto lg:mt-32  lg:mb-16 ">
         {/* Left side */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}

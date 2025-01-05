@@ -10,9 +10,9 @@ const About = () => {
   }, []);
 
   return (
-    <section className="py-16 bg-[url('dxh2.jpg')] text-white bg-cover bg-center">
+    <section className="pt-16 bg-[url('https://i.ibb.co.com/0cB2N5d/dxh2.jpg')] text-white bg-cover bg-center">
       <div className="w-11/12 mx-auto ">
-        <div className="text-center mt-10 lg:mt-16 mb-12">
+        <div className="text-center mt-10 lg:mt-20 mb-12">
           <h2 className="text-4xl font-bold mb-4" data-aos="fade-up">
             About Me
           </h2>
